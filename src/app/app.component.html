@@ -1,0 +1,7 @@
+<app-navbar></app-navbar>
+
+
+<router-outlet [ngClass]="{'rgba-black-strong' : (router == '/login')} "></router-outlet>
+
+
+<app-footer *ngIf="(router != '/login')"></app-footer>

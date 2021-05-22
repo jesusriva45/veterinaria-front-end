@@ -1,0 +1,41 @@
+/*estilos de la pagina NuevoProducto*/
+
+#cargaFoto {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    padding: 0px;
+}
+
+#idFoto {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    margin-top: -20px;
+}
+
+#idFoto:hover {
+    cursor: pointer !important;
+}
+
+.foto {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    border: 1px black solid;
+}
+
+.photo:hover {
+    cursor: pointer;
+}
+
+
+/*Estilos para los servicios*/
+
+
+/*estilos para el registra*/
